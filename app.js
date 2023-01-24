@@ -9,9 +9,27 @@ const gameCategories = [
         question: "What is Michael Scott's middle name?",
         answers: ['Henry', 'Gary'],
         correct: 'Gary',
-        value: '100'
+        value: '100',
 
-        // add 4 more questions
+        question: 'In what year did The Office 1st premiere?',
+        answers: ['2005', '2013'],
+        correct: '2005',
+        value: '200',
+
+        question: 'Who did Jim date before FINALLY dating Pam?',
+        answers: ['Angela Martin', 'Karen Filippelli'],
+        correct: 'Karen Filippelli',
+        value: '300',
+
+        question: "What is the make and model of Michael Scott's car?",
+        answers: ['Chrysler Sebring', 'Dodge Neon'],
+        correct: 'Chrysler Sebring',
+        value: '400',
+
+        question: 'Where did Pam go to art school?',
+        answers: ['Philadelphia', 'NYC'],
+        answer: 'NYC',
+        value: '500'
       }
     ]
   },
@@ -68,3 +86,5 @@ const gameCategories = [
     ]
   }
 ]
+
+console.log(gameCategories)
