@@ -137,9 +137,27 @@ const gameCategories = [
         question: "What is Spider Man's real name?",
         answers: ['Eddie Brock', 'Peter Parker'],
         correct: 'Peter Parker',
-        value: '100'
+        value: '100',
 
-        // add 4 more questions
+        question: 'Who protects Metropolis?',
+        answers: ['Green Arrow', 'Superman'],
+        correct: 'Superman',
+        value: '200',
+
+        question: "When did 'Batman: The Animated Series' make its premiere?",
+        answers: ['1992', '1997'],
+        correct: '1992',
+        value: '300',
+
+        question: 'How many suits of armor has Iron Man created in the MCU?',
+        answers: ['85', '15'],
+        correct: '85',
+        value: '400',
+
+        question: 'What was Wonder Woman originally named?',
+        answers: ['Wonder Girl', 'Suprema'],
+        correct: 'Suprema',
+        value: '500'
       }
     ]
   }
