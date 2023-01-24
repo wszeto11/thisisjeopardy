@@ -163,4 +163,16 @@ const gameCategories = [
   }
 ]
 
-console.log(gameCategories)
+function addOfficeCategory(category) {
+  const column = document.createElement('div')
+  column.classList.add('topic-column')
+
+  const topicTitle = document.createElement('div')
+  topicTitle.classList.add('topic-title')
+  topicTitle.innerText = category.topic
+
+  column.appendChild(topicTitle)
+  game.append(column)
+}
+
+gameCategories.forEach((category) => addOfficeCategory(category))
