@@ -13,7 +13,23 @@ body {
 }
 
 #main-game {
+  display: flex;
   background-color: darkgray;
-  display: flex
+}
+
+.tile {
+  background-color: darkblue;
+  height: 80px;
+  width: 110px;
+  text-align: center;
+  font-size: 65px;
+  line-height: 80px;
+  margin: 5px;
+  padding: 10px;
+  border-left: ridge rgba(0, 0, 255, 0.619);
+  border-top: ridge blue;
+  border-right: ridge rgba(0, 0, 255, 0.633);
+  border-bottom: ridge rgba(0, 0, 255, 0.619)
+
 }
 
