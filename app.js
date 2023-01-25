@@ -173,6 +173,12 @@ function addOfficeCategory(category) {
 
   column.appendChild(topicTitle)
   game.append(column)
+
+  category.questions.forEach((question) => {
+    const tile = document.createElement('div')
+    tile.classList.add('tile')
+    column.append(tile)
+  })
 }
 
 gameCategories.forEach((category) => addOfficeCategory(category))

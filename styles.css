@@ -2,14 +2,17 @@
 
 body {
   font-family: 'Aboreto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color:dimgray;
+  background-color:dimgrey;
   margin: 0;
   padding: 0;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-    
+}
 
+#main-game {
+  background-color: darkgray;
+  display: flex
 }
 
