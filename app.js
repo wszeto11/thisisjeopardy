@@ -213,6 +213,12 @@ function addCategory(category) {
     if (question.value === '500') {
       tile.innerHTML = 500
     }
+
+    tile.setAttribute('data-question', question.question)
+    tile.setAttribute('data-answer-1', question.answers[0])
+    tile.setAttribute('data-answer-2', question.answers[1])
+    tile.setAttribute('data-correct', question.correct)
+    tile.setAttribute('data-value', tile.getInnerHTML())
   })
 }
 gameCategories.forEach((category) => addCategory(category))
