@@ -219,6 +219,26 @@ function addCategory(category) {
     tile.setAttribute('data-answer-2', question.answers[1])
     tile.setAttribute('data-correct', question.correct)
     tile.setAttribute('data-value', tile.getInnerHTML())
+
+    tile.addEventListener('click', showTile)
   })
 }
+
 gameCategories.forEach((category) => addCategory(category))
+
+function showTile() {
+  this.innerHTML = ''
+  const tileContent = document.createElement('div')
+  tileContent.classList.add('tile-text')
+  tileContent.innerHTML = this.getAttribute('data-question')
+  const buttonOne = document.createElement('button')
+  const buttonTwo = document.createElement('button')
+
+  buttonOne.classList.add('button-one')
+  buttonTwo.classList.add('button-two')
+
+  buttonOne.innerHTML = this.getAttribute('data-answer-1')
+  buttonTwo.innerHTML = this.getAttribute('data-answer-2')
+
+  this.append(tileContent, buttonOne, buttonTwo)
+}
