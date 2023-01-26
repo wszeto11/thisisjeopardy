@@ -17,10 +17,18 @@ body {
   background-color: darkgray;
 }
 
+.topic-title {
+  text-align: center;
+  font-size: 28px;
+  background-color: darkblue;
+  margin: 5px;
+  padding: 5px;
+}
+
 .tile {
   background-color: darkblue;
-  height: 80px;
-  width: 110px;
+  height: 90px;
+  width: 130px;
   text-align: center;
   font-size: 65px;
   line-height: 80px;
@@ -33,3 +41,21 @@ body {
 
 }
 
+.button-one {
+  background-color: rgba(128, 128, 128, 0.836);
+  color: white
+}
+
+.button-two {
+  background-color: white;
+  color: rgba(128, 128, 128, 0.836)
+}
+
+.correct-answer {
+  background-color: aqua;
+}
+
+
+.wrong-answer {
+  background-color: darkred;
+}

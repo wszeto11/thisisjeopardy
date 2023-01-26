@@ -38,7 +38,7 @@ const gameCategories = [
     ]
   },
   {
-    topic: 'Star Trek',
+    topic: 'Trek Trivia',
     questions: [
       {
         question: 'Which starship has Captain Picard commanded?',
@@ -75,7 +75,7 @@ const gameCategories = [
     ]
   },
   {
-    topic: 'Knicks',
+    topic: 'The Knicks',
     questions: [
       {
         question: 'Who is the latest Knick to be an all-star?',
@@ -113,7 +113,7 @@ const gameCategories = [
     topic: 'Empire State',
     questions: [
       {
-        question: 'What is the name of the tallest building in New York state?',
+        question: "What's the name of the tallest building in New York?",
         answers: ['Empire State Building', 'Madison Square Garden'],
         correct: 'Empire State Building',
         value: '100'
@@ -146,7 +146,7 @@ const gameCategories = [
     ]
   },
   {
-    topic: 'Superheroes',
+    topic: 'Super Heroes',
     questions: [
       {
         question: "What is Spider Man's real name?",
@@ -181,6 +181,8 @@ const gameCategories = [
     ]
   }
 ]
+
+let total = 0
 
 function addCategory(category) {
   const column = document.createElement('div')
@@ -228,6 +230,8 @@ gameCategories.forEach((category) => addCategory(category))
 
 function showTile() {
   this.innerHTML = ''
+  this.style.fontSize = '10px'
+  this.style.lineHeight = '8px'
   const tileContent = document.createElement('div')
   tileContent.classList.add('tile-text')
   tileContent.innerHTML = this.getAttribute('data-question')
@@ -239,6 +243,38 @@ function showTile() {
 
   buttonOne.innerHTML = this.getAttribute('data-answer-1')
   buttonTwo.innerHTML = this.getAttribute('data-answer-2')
-
+  buttonOne.addEventListener('click', getAnswer)
+  buttonTwo.addEventListener('click', getAnswer)
   this.append(tileContent, buttonOne, buttonTwo)
+
+  const allTiles = Array.from(document.querySelectorAll('.tile'))
+  allTiles.forEach((tile) => tile.removeEventListener('click', showTile))
+}
+
+function getAnswer() {
+  const allTiles = Array.from(document.querySelectorAll('.tile'))
+  allTiles.forEach((tile) => tile.addEventListener('click', showTile))
+
+  const tileOfButton = this.parentElement
+
+  if (tileOfButton.getAttribute('data-correct') == this.innerHTML) {
+    total = total + parseInt(tileOfButton.getAttribute('data-value'))
+    playerTotal.innerHTML = total
+    tileOfButton.classList.add('correct-answer')
+    setTimeout(() => {
+      while (tileOfButton.firstChild) {
+        tileOfButton.removeChild(tileOfButton.lastChild)
+      }
+      tileOfButton.innerHTML = tileOfButton.getAttribute('data-value')
+    }, 100)
+  } else {
+    tileOfButton.classList.add('wrong-answer')
+    setTimeout(() => {
+      while (tileOfButton.firstChild) {
+        tileOfButton.removeChild(tileOfButton.lastChild)
+      }
+      tileOfButton.innerHTML = 0
+    }, 100)
+  }
+  tileOfButton.removeEventListener('click', showTile)
 }
