@@ -50,6 +50,8 @@
 
 #### MDN: [this keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
+#### MDN: [removeChild Method](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+
 #### W3: [Add Youtube link](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe_controls)
 
 #### W3: [Adding HTML images](https://www.w3schools.com/html/html_images.asp)
@@ -57,3 +59,5 @@
 #### W3: [Styling borders in CSS](https://www.w3schools.com/css/css_border.asp)
 
 #### Youtube: [Theme song](https://www.youtube.com/watch?v=njPzMyRGq9c)
+
+#### postimage: [Hosting images](https://postimg.cc/)
