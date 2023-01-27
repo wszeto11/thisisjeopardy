@@ -29,6 +29,9 @@
 
 ##### **Main Board**
 [![Screenshot-2023-01-27-at-11-56-09-AM.png](https://i.postimg.cc/RVR9CMdm/Screenshot-2023-01-27-at-11-56-09-AM.png)](https://postimg.cc/SJJHDbH1)
+
+##### **In Action**
+[![Screenshot-2023-01-27-at-12-19-00-PM.png](https://i.postimg.cc/RFx3wSHF/Screenshot-2023-01-27-at-12-19-00-PM.png)](https://postimg.cc/5HpNVMpd)
 ***
 
 - [ ] Future Update 1
