@@ -35,9 +35,9 @@
 ***
 
 - [ ] ***Future Update 1***
-- [ ] #####Question timer
-- [ ] #####Double & Final Jeopardy
-- [ ] #####Add Daily Double
+- [ ] Question timer
+- [ ] Double & Final Jeopardy
+- [ ] Add Daily Double
 - [ ] ***Future Update 2***
 - [ ] 2 player mode
 
@@ -46,4 +46,10 @@
 ### ***Credits***
 
 
-#### Placeholder: [Link Label](https://someurl.com)
+#### MDN: [Block vs Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
+
+#### MDN: [this keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
+#### W3: [Styling borders in CSS](https://www.w3schools.com/css/css_border.asp)
+
+#### 
