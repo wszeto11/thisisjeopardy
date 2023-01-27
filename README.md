@@ -35,11 +35,11 @@
 ***
 
 - [ ] Future Update 1
-##### [ ] Question timer
-##### [ ] Double & Final Jeopardy
-##### [ ] Add Daily Double
+- ##### [ ] Question timer
+- ##### [ ] Double & Final Jeopardy
+- ##### [ ] Add Daily Double
 - [ ] Future Update 2
-##### [ ] 2 player mode
+- ##### [ ] 2 player mode
 
 ***
 
