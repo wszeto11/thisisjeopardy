@@ -9,7 +9,7 @@
 
 ### ***Description*** 
 
-#### A Jeopardy inspired game that showcases Javascript, HTML, and CSS
+#### A Jeopardy inspired game that showcases Javascript, HTML, and CSS. Similar to the show, the game has 5 "catagories" and 5 corresponding columns where each question has a different value which is added together to get a total score. This game utilizes Event Listeners to handle user input('click') and relies heavily on Functions and looping within said functions. 
 ***
 
 ### ***Technologies***
@@ -21,7 +21,7 @@
 
 ### ***Getting Started***
 
-***
+#### Purposely designed to "hit the ground running" with game play. So feel free to click any of the tiles to get started. Each question will present 2 answers to select from, choose wisely. 
 
 ### ***Screenshots***
 
