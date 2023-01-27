@@ -34,11 +34,11 @@
 [![Screenshot-2023-01-27-at-12-19-00-PM.png](https://i.postimg.cc/RFx3wSHF/Screenshot-2023-01-27-at-12-19-00-PM.png)](https://postimg.cc/5HpNVMpd)
 ***
 
-- [ ] **Future Update 1**
-- [ ] Question timer
-- [ ] Double & Final Jeopardy
-- [ ] Add Daily Double
-- [ ] **Future Update 2**
+- [ ] ***Future Update 1***
+- [ ] #####Question timer
+- [ ] #####Double & Final Jeopardy
+- [ ] #####Add Daily Double
+- [ ] ***Future Update 2***
 - [ ] 2 player mode
 
 ***
