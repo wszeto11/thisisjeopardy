@@ -27,8 +27,8 @@
 
 ### ***Screenshots***
 
-##### **Image Name here**
-![Image]([![Screenshot-2023-01-27-at-11-56-09-AM.png](https://i.postimg.cc/RVR9CMdm/Screenshot-2023-01-27-at-11-56-09-AM.png)](https://postimg.cc/SJJHDbH1))
+##### **Main Board**
+![Image](https://postimg.cc/SJJHDbH1)
 ***
 
 - [ ] Future Update 1
