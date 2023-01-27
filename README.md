@@ -23,10 +23,12 @@
 
 #### Purposely designed to "hit the ground running" with game play. So feel free to click any of the tiles to get started. Each question will present 2 answers to select from, choose wisely. 
 
+##### ::wink wink:: ::nudge nudge:: curiosity did NOT kill the cat.
+
 ### ***Screenshots***
 
 ##### **Image Name here**
-![Image](website url)
+![Image]([![Screenshot-2023-01-27-at-11-56-09-AM.png](https://i.postimg.cc/RVR9CMdm/Screenshot-2023-01-27-at-11-56-09-AM.png)](https://postimg.cc/SJJHDbH1))
 ***
 
 - [ ] Future Update 1
