@@ -35,7 +35,12 @@
 ***
 
 - [ ] Future Update 1
+### **Icebox & Stretch goals
+#### - [ ] Question timer
+#### - [ ] Double & Final Jeopardy
+#### - [ ] Add Daily Double
 - [ ] Future Update 2
+#### - [ ] 2 player mode
 - [x] Completed Update
 - [x] ~~Strikethrough~~ Items Also
 ***
